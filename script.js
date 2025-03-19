@@ -18,3 +18,6 @@ function calcular(numero1, numero2) {
 }
 
 calcular(1, 2);
+
+for (let i = 10; i > 0; i--)
+    console.log("número" + i)
