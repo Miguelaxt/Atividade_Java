@@ -27,4 +27,6 @@ for (let i = 10; i > 0; i--)
     let reversed = original.split("").reverse().join("");
     console.log(reversed); 
 
-    
+    var str = "Miguel";
+    var n = str.length;
+    console.log(n);
