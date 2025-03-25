@@ -19,14 +19,42 @@ function calcular(numero1, numero2) {
 
 calcular(1, 2);
 
+{
 for (let i = 10; i > 0; i--)
     console.log("número" + i)
 
     
     let original = "leugiM";
     let reversed = original.split("").reverse().join("");
-    console.log(reversed); 
+    console.log(reversed);
+} 
 
+{
     var str = "Miguel";
     var n = str.length;
     console.log(n);
+}
+
+var carro = {
+    marca: "Mclaren",
+    modelo: "P1 GTR",
+    ano: 2015
+  };
+  console.log(carro.marca);
+  console.log(carro.modelo);
+  console.log(carro.ano);
+
+
+  function mensagemPersonalizada(nome, mensagem="Olá!") {
+  console.log (mensagem, nome);
+}
+
+mensagemPersonalizada("Miguel") ;
+mensagemPersonalizada("Natalia", "Você é muito boa");
+
+
+function media(n1, n2, n3) {
+    return (n1 + n2 + n3) / 3;
+}
+
+console.log(media(7, 8, 9));
