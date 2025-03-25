@@ -58,3 +58,12 @@ function media(n1, n2, n3) {
 }
 
 console.log(media(7, 8, 9));
+
+
+for (let i = 1; i <= 10; i++) {
+    if (i % 3 === 0) {
+        console.log(`${i}: Múltiplo de 3`);
+    } else {
+        console.log(`${i}: Não múltiplo de 3`);
+    }
+}
