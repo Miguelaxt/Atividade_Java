@@ -21,3 +21,10 @@ calcular(1, 2);
 
 for (let i = 10; i > 0; i--)
     console.log("número" + i)
+
+    
+    let original = "leugiM";
+    let reversed = original.split("").reverse().join("");
+    console.log(reversed); 
+
+    
