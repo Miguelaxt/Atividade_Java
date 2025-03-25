@@ -67,3 +67,14 @@ for (let i = 1; i <= 10; i++) {
         console.log(`${i}: Não múltiplo de 3`);
     }
 }
+
+
+function verificarPalindromo(palavra) {
+    let invertida = palavra.split('').reverse().join('');
+    return palavra === invertida;
+}
+
+
+console.log(verificarPalindromo("hello")); 
+
+console.log(verificarPalindromo("arara")); 
