@@ -78,3 +78,19 @@ function verificarPalindromo(palavra) {
 console.log(verificarPalindromo("hello")); 
 
 console.log(verificarPalindromo("arara")); 
+
+
+function verificarSinal(numero) {
+    if (numero > 0) {
+      console.log("Positivo");
+    } else if (numero < 0) {
+      console.log("Negativo");
+    } else {
+      console.log("Zero");
+    }
+  }
+
+verificarSinal(2)
+verificarSinal(0)
+verificarSinal(-2)
+
