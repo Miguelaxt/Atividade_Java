@@ -1,33 +1,33 @@
-function verificarPar(numero){
-    if(numero % 2 === 0) {
+function verificarPar(numero) {
+    if (numero % 2 === 0) {
         console.log('par');
-    }else{
+    } else {
         console.log('impar');
     }
 }
-    
+
 verificarPar(4);
 verificarPar(7);
 
 
 function calcular(numero1, numero2) {
-    console.log ("soma , " + (numero1 + numero2));
-    console.log ("subtração , " + (numero1 - numero2));
-    console.log ("multiplicação , " + (numero1 * numero2));
-    console.log ("divisão , " + (numero1 / numero2));
+    console.log("soma , " + (numero1 + numero2));
+    console.log("subtração , " + (numero1 - numero2));
+    console.log("multiplicação , " + (numero1 * numero2));
+    console.log("divisão , " + (numero1 / numero2));
 }
 
 calcular(1, 2);
 
 {
-for (let i = 10; i > 0; i--)
-    console.log("número" + i)
+    for (let i = 10; i > 0; i--)
+        console.log("número" + i)
 
-    
+
     let original = "leugiM";
     let reversed = original.split("").reverse().join("");
     console.log(reversed);
-} 
+}
 
 {
     var str = "Miguel";
@@ -39,17 +39,17 @@ var carro = {
     marca: "Mclaren",
     modelo: "P1 GTR",
     ano: 2015
-  };
-  console.log(carro.marca);
-  console.log(carro.modelo);
-  console.log(carro.ano);
+};
+console.log(carro.marca);
+console.log(carro.modelo);
+console.log(carro.ano);
 
 
-  function mensagemPersonalizada(nome, mensagem="Olá!") {
-  console.log (mensagem, nome);
+function mensagemPersonalizada(nome, mensagem = "Olá!") {
+    console.log(mensagem, nome);
 }
 
-mensagemPersonalizada("Miguel") ;
+mensagemPersonalizada("Miguel");
 mensagemPersonalizada("Natalia", "Você é muito boa");
 
 
@@ -75,26 +75,26 @@ function verificarPalindromo(palavra) {
 }
 
 
-console.log(verificarPalindromo("hello")); 
+console.log(verificarPalindromo("hello"));
 
-console.log(verificarPalindromo("arara")); 
+console.log(verificarPalindromo("arara"));
 
 
 function verificarSinal(numero) {
     if (numero > 0) {
-      console.log("Positivo");
+        console.log("Positivo");
     } else if (numero < 0) {
-      console.log("Negativo");
+        console.log("Negativo");
     } else {
-      console.log("Zero");
+        console.log("Zero");
     }
-  }
+}
 
 verificarSinal(2)
 verificarSinal(0)
 verificarSinal(-2)
 
-function converterTemperatura(temperatura){
+function converterTemperatura(temperatura) {
     console.log((temperatura * 1.8) + 32, "fahrenheit");
 }
 
@@ -115,8 +115,26 @@ console.log("O valor total da soma de 1 a 100 é: " + soma);
 function substituirPalavra() {
     console.log("substituir a palavra vermelho por verde");
 
-    let texto = prompt ("Digite um texto com a palavra vermelho:");
+    let texto = prompt("Digite um texto com a palavra vermelho:");
 
     console.log(texto.replace(/vermelho/g, "verde"));
+}
+
+
+function tamanhoString(str) {
+    if ((str.length) > 10) {
+        console.log("A string tem mais de 10 caracteres");
+    } else {
+        console.log("A string tem menos de 10 caracteres");
+    }
+}
+
+tamanhoString("Eu comi um sanduíche");
+
+
+function array() {
+    console.log("Frutas diferentes");
+    let frutas = prompt ("Digite 5 frutas diferentes").split(",").map(string);
+    console.log(frutas[2]);
 }
 
