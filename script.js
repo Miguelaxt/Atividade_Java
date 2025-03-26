@@ -110,3 +110,13 @@ while (i <= 100) {
 }
 
 console.log("O valor total da soma de 1 a 100 é: " + soma);
+
+
+function substituirPalavra() {
+    console.log("substituir a palavra vermelho por verde");
+
+    let texto = prompt ("Digite um texto com a palavra vermelho:");
+
+    console.log(texto.replace(/vermelho/g, "verde"));
+}
+
