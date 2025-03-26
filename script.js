@@ -94,3 +94,8 @@ verificarSinal(2)
 verificarSinal(0)
 verificarSinal(-2)
 
+function converterTemperatura(temperatura){
+    console.log((temperatura * 1.8) + 32, "fahrenheit");
+}
+
+converterTemperatura(15)
